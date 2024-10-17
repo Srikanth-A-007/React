@@ -1,7 +1,7 @@
 // C:\Srikanth\React_JS\01basicreact\src\components\standard textbox.js
 
 import React, { useState } from 'react';
-import './components.css'; // Import your CSS file
+import './standard textbox.css';
 
 function StandardTextbox() {
   const [inputValue, setInputValue] = useState('');

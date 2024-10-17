@@ -1,22 +1,18 @@
 /* C:\Srikanth\React_JS\01basicreact\src\App.css */
 :root {
-    --main-color: #008000;
+    --main-color: #3bc405;
+    --secondary-color: red;
   }
-  
+  /* C:\Srikanth\React_JS\01basicreact\src\App.css */
+.app-container {
+  background-color: hwb(0 99% 0%); /* Light Gray */
+  min-height: 100vh; /* Ensure the div takes full height */
+  padding: 20px;
+}
+
   h1 {
     color: var(--main-color);
   }
-  
-  button {
-    background-color: var(--main-color);
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  /* C:\Srikanth\React_JS\01basicreact\src\components\components.css */
-
-/* C:\Srikanth\React_JS\01basicreact\src\components\components.css */
 
 .textField {
     border: 2px solid var(--main-color); /* Specify the width and style */
@@ -24,6 +20,4 @@
     border-radius: 10px; /* Optional: Add border radius for rounded corners */
     margin-top: 2px;
 }
-
-
   
